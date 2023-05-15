@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list 2.0</title>
+</head>
+
+<body>
+    <header>
+        <h1>Task Manager</h1>
+    </header>
+    <div class="textHere">
+        <input id="textInput" class="inputTexto" type="text" placeholder="Write your task here">
+        <button class="button" onclick="createTask()">Publish</button>
+    </div>
+    <div class="container" id="container">
+        <h2>To do</h2>
+        <div class="containerToDo" id="containerToDo"></div>
+        
+    </div>
+    <div>
+        <h2>Doing</h2>
+        <div class="containerToDo" id="containerDoing">                
+        </div>
+    </div>
+    <div>
+        <h2>Done</h2>
+        <div class="containerToDo" id="containerDone">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="scrip.js"></script>
+    <script src="task.js"></script>
+</body>
+
+</html>

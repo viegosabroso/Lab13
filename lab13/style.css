@@ -1,0 +1,66 @@
+
+.textHere{
+    box-shadow: 0px 5px 10px;
+    border-radius: 20px;
+    height: 100px;
+    width:180px;
+    margin-bottom: 50px;
+}
+.inputTexto{
+    border-radius: 20px;
+    height: 100px;
+    width:180px;
+    border: none;
+}
+.button{
+    margin: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(228, 119, 228);
+    border-radius: 20px;
+    border: none;
+    font-size: 16pt;
+}
+h2{
+    margin:0;
+}
+.container{
+    display: flex;
+    
+}
+.containerToDo{
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: grey;
+    width: fit-content;
+    flex-direction: row;
+    gap: 100px;
+}
+.tarea{
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+
+}
+.cuadroAzul{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+.cuadroRojo{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+.cuadrados{
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    justify-content: end;
+}
+.imagen{position: relative;
+    left: 80%;
+}
